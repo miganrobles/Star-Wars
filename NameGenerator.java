@@ -21,6 +21,10 @@ public class NameGenerator
      */
     public void generateStarWarsName(String nombre, String primerApellido, String segundoApellido, String ciudadDeNacimiento)
     {
-        System.out.println(nombre.substring(0,3) + primerApellido.substring(0,3) + " " + segundoApellido.substring(0,2) +  ciudadDeNacimiento.substring(0,3));
+        int PRIMER = 0;
+        int SEGUNDO = 2;
+        int TERCER = 3;
+        System.out.println(nombre.substring(PRIMER,TERCER) + primerApellido.substring(PRIMER,TERCER) + " " + 
+        segundoApellido.substring(PRIMER,SEGUNDO) +  ciudadDeNacimiento.substring(PRIMER,TERCER));
     }
 }
